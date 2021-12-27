@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'roboto';
+}
+
+.no-margin-pad {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-header {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 30px;
+}
+
+.section1-header-hlogo {
+    margin-right: auto;
+}
+
+.section1-body {
+    display: flex;
+    gap: 10px;
+}
+
+.section1-body-image {
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+}
