@@ -1,23 +1,38 @@
 body {
     height: 100%;
-    margin-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0;
+    padding: 0;
 
     display: flex;
     flex-direction: column;
 
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
+/* We can delete this in future */
 .no-margin-pad {
     margin: 0;
     padding: 0;
 }
 
+/*************************************************/
+/* SECTION 1                                     */
+/* TODO                                          */
+/* #1.add links to the <a>.                      */
+/* #2.Change image font color and bnackground    */
+/* #3.Flex grow, shrink.                         */
+/*************************************************/
+
 .section1 {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+
     display: flex;
     flex-direction: column;
+
+    background-color: #1F2937;
 }
 
 .section1-header {
@@ -28,7 +43,20 @@ body {
 }
 
 .section1-header-hlogo {
+    margin: 0;
+    padding: 0;
     margin-right: auto;
+
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section1-header-links {
+    margin: 0;
+    padding-left: 25px;
+
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .section1-body {
@@ -36,8 +64,70 @@ body {
     gap: 10px;
 }
 
+.section1-body-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.section1-body-secondtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
 .section1-body-image {
     border: 1px solid black;
     height: 200px;
     width: 400px;
+
+    background-color: #E5E7EB;
+    color: black;
+}
+
+/*************************************************/
+/* SECTION 2                                     */
+/* TODO                                          */
+/* not done                                      */
+/*************************************************/
+.section2 {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*************************************************/
+/* SECTION 3                                     */
+/* TODO                                          */
+/* not done                                      */
+/*************************************************/
+.section3 {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*************************************************/
+/* SECTION 4                                     */
+/* TODO                                          */
+/* not done                                      */
+/*************************************************/
+.section4 {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*************************************************/
+/* FOOTER                                        */
+/* TODO                                          */
+/* not done                                      */
+/*************************************************/
+.footer {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
