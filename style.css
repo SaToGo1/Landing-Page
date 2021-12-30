@@ -21,6 +21,7 @@ body {
 /* #1.add links to the <a>.                      */
 /* #2.Change image font color and bnackground    */
 /* #3.Flex grow, shrink.                         */
+/* #4.Change Button.                             */
 /*************************************************/
 
 .section1 {
@@ -61,7 +62,11 @@ body {
 
 .section1-body {
     display: flex;
-    gap: 10px;
+
+}
+
+.section1-body-left{
+    max-width: 700px
 }
 
 .section1-body-title {
@@ -79,8 +84,13 @@ body {
     padding: 0;
 }
 
+.section1-body-right{
+    margin-left: auto;
+}
+
 .section1-body-image {
     border: 1px solid black;
+    margin-left: 20px;
     height: 200px;
     width: 400px;
 
@@ -97,8 +107,48 @@ body {
     padding-top: 15px;
     padding-left: 10%;
     padding-right: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.section2-imgtxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section2-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.section2-imgtxt-indv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 20px;
+}
+
+.section2-imgtxt-indv-box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+/*
+.section2-imgtxt-indv-box-image {
+}
+*/
+.section2-imgtxt-indv-boxtxt {
+    height: 150px;
+    width: 150px;
+}
 /*************************************************/
 /* SECTION 3                                     */
 /* TODO                                          */
