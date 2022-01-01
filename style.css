@@ -9,19 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* We can delete this in future */
-.no-margin-pad {
-    margin: 0;
-    padding: 0;
-}
-
 /*************************************************/
 /* SECTION 1                                     */
 /* TODO                                          */
-/* #1.add links to the <a>.                      */
-/* #2.Change image font color and bnackground    */
-/* #3.Flex grow, shrink.                         */
-/* #4.Change Button.                             */
+/* done                                          */
 /*************************************************/
 
 .section1 {
@@ -53,6 +44,7 @@ body {
 }
 
 .section1-header-links {
+    text-decoration: none;
     margin: 0;
     padding-left: 25px;
 
@@ -98,10 +90,26 @@ body {
     color: black;
 }
 
+.section1-button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    
+    border: 0px solid #F9FAF8;
+    border-radius: 15px;
+    padding: 10px 40px;
+
+    transition-duration: 0.4s;
+}
+
+.section1-button:hover {
+    background-color: #384bf6; 
+}
+
 /*************************************************/
 /* SECTION 2                                     */
 /* TODO                                          */
-/* not done                                      */
+/* done :)!                                      */
 /*************************************************/
 .section2 {
     padding-top: 15px;
@@ -141,10 +149,6 @@ body {
     border-radius: 15px;
 }
 
-/*
-.section2-imgtxt-indv-box-image {
-}
-*/
 .section2-imgtxt-indv-boxtxt {
     height: 150px;
     width: 150px;
@@ -152,32 +156,113 @@ body {
 /*************************************************/
 /* SECTION 3                                     */
 /* TODO                                          */
-/* not done                                      */
+/*  done                                         */
 /*************************************************/
 .section3 {
-    padding-top: 15px;
+    padding-top: 100px;
+    padding-bottom: 80px;
     padding-left: 10%;
     padding-right: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E5E7EB;
+}
+
+.section3-box {
+    max-width: 900px; /*784px;*/ 
+    display: flex;
+    flex-direction: column;
+}
+
+.section3-box-maintext {
+    font-size: 36px; 
+    color: #1F2937;
+}
+
+.section3-box-reftext {
+    align-self: flex-end;
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
 }
 
 /*************************************************/
 /* SECTION 4                                     */
 /* TODO                                          */
-/* not done                                      */
+/*  done                                         */
 /*************************************************/
 .section4 {
-    padding-top: 15px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 10%;
     padding-right: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.section4-box {
+    background-color: #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    flex-grow: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4-box-left-uptext {
+   font-size: 24px;
+   color: #F9FAF8; 
+   margin-bottom: 0;
+}
+
+.section4-box-left-downtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.section4-button {
+    margin-left: 100px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    
+    border: 1px solid #F9FAF8;
+    border-radius: 15px;
+    padding: 10px 40px;
+
+    transition-duration: 0.4s;
+}
+
+.section4-button:hover {
+    background-color: #384bf6; 
+}
 /*************************************************/
 /* FOOTER                                        */
 /* TODO                                          */
-/* not done                                      */
+/* done                                          */
 /*************************************************/
 .footer {
     padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 10%;
     padding-right: 10%;
+
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
